@@ -1,0 +1,5 @@
+include/EGL symlink=dir
+include/KHR symlink=dir
+doc/extensions symlink=dir
+doc/specs symlink=dir
+doc/sdk symlink=dir
