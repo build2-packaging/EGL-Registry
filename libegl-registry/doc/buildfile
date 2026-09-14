@@ -1,9 +1,0 @@
-# Registry XML, extension specifications, API specs, and reference pages.
-#
-./: file{**}
-
-file{*}:
-{
-  install         = doc/libegl-registry/
-  install.subdirs = true
-}
