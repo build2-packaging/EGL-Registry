@@ -1,16 +1,19 @@
 : 1
 name: libegl-registry
-version: 0.1.0-a.0.z
+version: 2026.3.19-a.0.z
+upstream-version: 20260319
 type: lib,binless
 language: c
-project: build2-EGL-Registry
-summary: EGL-Registry
-license: Apache-2.0 ; Apache License 2.0.
+project: egl-registry
+summary: Khronos EGL API and extension headers
+topics: EGL API, Khronos registry, graphics headers
+license: Apache-2.0, MIT
 description-file: README.md
 package-description-file: PACKAGE-README.md
-url: https://example.org/upstream
-email: upstream@example.org
-package-url: https://github.com/build2-packaging/build2-EGL-Registry
-package-email: packaging@build2.org ; Mailing list.
+url: https://github.com/KhronosGroup/EGL-Registry
+doc-url: https://registry.khronos.org/EGL/
+src-url: https://github.com/KhronosGroup/EGL-Registry
+package-url: https://github.com/build2-packaging/EGL-Registry
+package-email: packaging@build2.org
 depends: * build2 >= 0.18.0
 depends: * bpkg >= 0.18.0
