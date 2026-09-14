@@ -1,0 +1,7 @@
+project = libegl-registry
+
+using version
+using config
+using test
+using install
+using dist

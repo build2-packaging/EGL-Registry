@@ -1,0 +1,3 @@
+import libs = libegl-registry%lib{egl-registry}
+
+exe{driver}: {h c}{**} $libs testscript{**}

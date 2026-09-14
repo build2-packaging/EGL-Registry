@@ -1,0 +1,16 @@
+: 1
+name: libegl-registry
+version: 0.1.0-a.0.z
+type: lib,binless
+language: c
+project: build2-EGL-Registry
+summary: EGL-Registry
+license: Apache-2.0 ; Apache License 2.0.
+description-file: README.md
+package-description-file: PACKAGE-README.md
+url: https://example.org/upstream
+email: upstream@example.org
+package-url: https://github.com/build2-packaging/build2-EGL-Registry
+package-email: packaging@build2.org ; Mailing list.
+depends: * build2 >= 0.18.0
+depends: * bpkg >= 0.18.0
