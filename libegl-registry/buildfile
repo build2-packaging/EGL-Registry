@@ -1,4 +1,16 @@
-./: {*/ -build/} doc{README.md PACKAGE-README.md LICENSE} manifest
+./: {*/ -build/ -doc/} doc{README.md PACKAGE-README.md LICENSE} manifest
+
+# Registry XML, extension specifications, and API specs, selected by
+# extension so a future upstream version can't silently pull in an
+# unexpected or large file.
+#
+./: doc/doc{egl.xml extensions/**.txt specs/**.pdf specs/**.html specs/**.xhtml specs/**.css specs/**.png}
+
+doc/doc{*}:
+{
+  install         = doc/
+  install.subdirs = true
+}
 
 # Don't install tests.
 #
