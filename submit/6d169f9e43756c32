@@ -1,0 +1,8 @@
+: 1
+name: libegl-registry
+version: 2026.3.19
+type: lib,binless
+language: c
+project: egl-registry
+summary: Khronos EGL API and extension headers
+license: Apache-2.0, MIT
